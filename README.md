@@ -9,8 +9,8 @@
 6.	社群化互動功能(分享打卡、共同行程規劃、熱門趨勢)
 
 # 資料
-[Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
-[react-google-maps](https://visgl.github.io/react-google-maps/docs/get-started)
+- [Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
+- [react-google-maps](https://visgl.github.io/react-google-maps/docs/get-started)
 
 
 # 製作方式
