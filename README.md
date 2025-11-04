@@ -8,7 +8,7 @@
 5.	製作預算表與結算款項(誰要給誰多少錢)
 6.	社群化互動功能(分享打卡、共同行程規劃、熱門趨勢)
 
-# Google Maps Platform
+# [Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
 1. app.jsx
 ```
 import React from 'react';
@@ -24,7 +24,7 @@ root.render(<App />);
 
 export default App;
 ```
-2. clone GitHub
+
 
 # 製作方式
 1.	前端->HTML、CSS、JavaScript
