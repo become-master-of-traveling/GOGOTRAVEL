@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧旅遊規劃系統</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 智慧旅遊規劃系統</h1>
+  </header>
+
+  <section id="search-section">
+    <input type="text" id="destination" placeholder="輸入旅遊地點（例如：台北）">
+    <input type="date" id="date">
+    <button id="search-btn">開始規劃</button>
+  </section>
+
+  <section id="results">
+    <div id="map"></div>
+    <div id="weather" class="info-box"></div>
+    <div id="ai-suggestion" class="info-box"></div>
+
+    <div id="save-section">
+      <button id="save-btn">⭐ 收藏行程</button>
+      <button id="download-btn">⬇️ 匯出文字檔</button>
+      <button id="qrcode-btn">📱 生成 QR Code</button>
+    </div>
+
+    <div id="qrcode-container" class="info-box"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 智慧旅遊規劃 by 邱紫婕</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+  
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+</body>
+</html>
