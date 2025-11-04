@@ -8,22 +8,9 @@
 5.	製作預算表與結算款項(誰要給誰多少錢)
 6.	社群化互動功能(分享打卡、共同行程規劃、熱門趨勢)
 
-# [Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
-1. app.jsx
-```
-import React from 'react';
-import {createRoot} from "react-dom/client";
-import {APIProvider} from '@vis.gl/react-google-maps';
-const App = () => (
- <APIProvider apiKey={'Your API key here'} onLoad={() => console.log('Maps API has loaded.')}>
-   <h1> Hello, world! </h1>
- </APIProvider>
-);
-const root = createRoot(document.getElementById('app'));
-root.render(<App />);
-
-export default App;
-```
+# 資料
+[Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
+[react-google-maps](https://visgl.github.io/react-google-maps/docs/get-started)
 
 
 # 製作方式
