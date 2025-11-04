@@ -10,7 +10,7 @@
 
 # Google Maps Platform
 1. app.jsx
-''''
+```
 import React from 'react';
 import {createRoot} from "react-dom/client";
 import {APIProvider} from '@vis.gl/react-google-maps';
@@ -23,7 +23,7 @@ const root = createRoot(document.getElementById('app'));
 root.render(<App />);
 
 export default App;
-''''
+```
 2. clone GitHub
 
 # 製作方式
