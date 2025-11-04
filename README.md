@@ -8,6 +8,25 @@
 5.	製作預算表與結算款項(誰要給誰多少錢)
 6.	社群化互動功能(分享打卡、共同行程規劃、熱門趨勢)
 
+# Google Maps Platform
+1. app.jsx
+'''
+import React from 'react';
+import {createRoot} from "react-dom/client";
+import {APIProvider} from '@vis.gl/react-google-maps';
+
+const App = () => (
+ <APIProvider apiKey={'Your API key here'} onLoad={() => console.log('Maps API has loaded.')}>
+   <h1>Hello, world!</h1>
+ </APIProvider>
+);
+
+const root = createRoot(document.getElementById('app'));
+root.render(<App />);
+
+export default App;
+'''
+2. 
 # 製作方式
 1.	前端->HTML、CSS、JavaScript
 2.	API->Google Map、OpenWeathMap
