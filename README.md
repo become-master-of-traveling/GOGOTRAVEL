@@ -1,4 +1,4 @@
-## <font color = "#84C1FF">google-maps-demo 好像是錯的我再看看 <font>
+## <font color = "#CE0000">google-maps-demo 好像是錯的我再看看 <font>
 
 # 旅遊行程大師
 組員：邱紫婕、邱慧馨
