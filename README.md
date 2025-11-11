@@ -1,7 +1,3 @@
-## js-api-samples 
-npm start
-
-
 # 旅遊行程大師
 組員：邱紫婕、邱慧馨
 
