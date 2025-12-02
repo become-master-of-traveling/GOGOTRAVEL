@@ -1,0 +1,5 @@
+{
+  "name": "AI Travel Planner & Expense Splitter",
+  "description": "A comprehensive travel planning tool allowing users to search destinations via AI, drag-and-drop itineraries, visualize routes on a map, and manage group expenses.",
+  "requestFramePermissions": []
+}

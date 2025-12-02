@@ -1,29 +1,20 @@
-# 旅遊行程大師
-組員：邱紫婕、邱慧馨
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-# 功能介紹
-1.	搜尋目的與旅遊日期
-2.	顯示地圖與路線規劃
-3.	串接天氣API與AI給予行程建議
-4.	收藏或輸出行程
-5.	製作預算表與結算款項(誰要給誰多少錢)
-6.	社群化互動功能(分享打卡、共同行程規劃、熱門趨勢)
+# Run and deploy your AI Studio app
 
-# 資料
-- [Google Maps Platform](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js?hl=zh-tw#1)
-- [react-google-maps](https://visgl.github.io/react-google-maps/docs/get-started)
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1-49qENPsof1IRS8RdNsi2uUXWVm8jHTh
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-# 製作方式
-1.	前端->HTML、CSS、JavaScript
-2.	API->Google Map、OpenWeathMap
-3.	AI->Gemini or HuggingFace模型
-4.	Chart.js、qrcode
-
-# 進度表
-- 11/11(二) : 製作功能1、2、4
-- 11/18(二) : 製作功能1、2、4
-- 11/25(二) : 製作功能1、2、4
-- 12/02(二) : 製作功能5
-- 12/09(二) : 製作功能3、6
-- 12/16(二) : 線上專題成果展
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
