@@ -174,12 +174,16 @@ const App: React.FC = () => {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 md:px-8 py-3 flex justify-between items-center shadow-sm">
         <div className="flex items-center gap-3">
-            <div className="bg-indigo-600 p-2 rounded-lg text-white shadow-indigo-200 shadow-lg">
-                <Map size={20} />
+            <div className="p-1">
+                <img
+                  src="/image/travel_logo.png"
+                  alt="Error icon"
+                  className="w-16 h-16 rounded-lg object-cover"
+                />
             </div>
             <div>
-                <h1 className="text-lg font-bold text-slate-800 leading-none tracking-tight">TravelGenie</h1>
-                <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">AI 旅遊規劃助手</p>
+                <h1 className="text-lg font-bold text-slate-800 leading-none tracking-tight">Go Go Travel</h1>
+                <p className="text-[10px] text-slate-500 font-medium uppercase tracking-wider">開始規劃深刻的旅程</p>
             </div>
         </div>
 

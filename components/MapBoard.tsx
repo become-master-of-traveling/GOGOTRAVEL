@@ -193,7 +193,11 @@ export const MapBoard: React.FC<MapBoardProps> = ({ days, activeDayId }) => {
        {loadError && (
           <div className="absolute inset-0 flex flex-col items-center justify-center z-20 bg-slate-50 p-6 text-center">
               <div className="text-red-500 mb-2 font-bold flex flex-col items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                <img
+                  src="/image/travel_logo.png"
+                  alt="Error icon"
+                  className="w-8 h-8"
+                />
                 <span className="mt-2">地圖載入失敗</span>
               </div>
               <p className="text-slate-600 text-sm mb-4">{loadError}</p>
